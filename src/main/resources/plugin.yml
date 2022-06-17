@@ -1,0 +1,13 @@
+name: FinalProject
+version: '${project.version}'
+main: seyed.ab2.finalproject.FinalProject
+api-version: 1.18
+commands:
+  mark-location:
+    description: will mark a point with a 50 block stone tower
+    usage: /<command>
+    aliases: [mark , tower]
+  unlimitted-wither-spawner:
+    description: will spawn a lot of wither
+    usage: /<command> <initdelay> <spawndelay>
+    aliases: [wither]
