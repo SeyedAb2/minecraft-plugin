@@ -17,7 +17,7 @@ out/
 # BlueJ files
 *.ctxt
 
-# Package Files #
+# Package TicTacToeFiles #
 *.jar
 *.war
 *.nar
@@ -26,18 +26,18 @@ out/
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual maitemine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
 *~
 
-# temporary files which can be created if a process still has a handle open of a deleted file
+# temporary files whiitem can be created if a process still has a handle open of a deleted file
 .fuse_hidden*
 
 # KDE directory preferences
 .directory
 
-# Linux trash folder which might appear on any partition or disk
+# Linux trash folder whiitem might appear on any partition or disk
 .Trash-*
 
 # .nfs files are created when an open file is removed but is still being accessed
@@ -54,14 +54,14 @@ Icon
 # Thumbnails
 ._*
 
-# Files that might appear in the root of a volume
+# TicTacToeFiles that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+.com.apple.timemaitemine.donotpresent
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -70,7 +70,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Windows thumbnail cache files
+# Windows thumbnail caiteme files
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db

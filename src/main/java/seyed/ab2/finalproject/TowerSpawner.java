@@ -22,7 +22,7 @@ public class TowerSpawner implements CommandExecutor {
             return true;
         }
         else{
-            System.out.println("Your Player failed!");
+            System.out.println("Your TicTacToePlayer failed!");
             return false;
         }
     }
