@@ -4,7 +4,7 @@ import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
-import org.bukkit.enitemantments.Enitemantment;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Monster;
@@ -31,11 +31,11 @@ public class PlayerMovementListener implements Listener {
         if(entity instanceof Monster){
             entity.getEquipment().setBoots(new ItemStack(Material.DIAMOND_BOOTS));
             entity.getEquipment().setHelmet(new ItemStack(Material.DIAMOND_HELMET));
-            entity.getEquipment().setitemestplate(new ItemStack(Material.DIAMOND_itemESTPLATE));
+            entity.getEquipment().setChestplate(new ItemStack(Material.DIAMOND_CHESTPLATE));
             entity.getEquipment().setLeggings(new ItemStack(Material.DIAMOND_LEGGINGS));
             if (entity.getType() == EntityType.SKELETON){
                 ItemStack bow = new ItemStack(Material.BOW);
-                bow.addEnitemantment(Enitemantment.ARROW_DAMAGE,100000);
+                bow.addEnchantment(Enchantment.ARROW_DAMAGE,100000);
                 entity.getEquipment().setItemInMainHand(bow);
             }
         }

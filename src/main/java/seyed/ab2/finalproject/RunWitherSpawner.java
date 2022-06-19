@@ -3,7 +3,7 @@ package seyed.ab2.finalproject;
 import org.bukkit.World;
 import org.bukkit.entity.EntityType;
 import org.bukkit.plugin.Plugin;
-import org.bukkit.sitemeduler.BukkitRunnable;
+import org.bukkit.scheduler.BukkitRunnable;
 
 public class RunWitherSpawner extends BukkitRunnable {
     private final Plugin plugin;
