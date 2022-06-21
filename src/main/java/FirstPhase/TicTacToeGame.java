@@ -9,8 +9,8 @@ public class TicTacToeGame implements Serializable {
     private String PlayerNameO = "";
     private String PlayerNameX = "";
 
-    TicTacToePlayer firstPlayer =new TicTacToePlayer(PlayerNameX);
-    TicTacToePlayer secondPlayer =new TicTacToePlayer(PlayerNameO);
+    TicTacToePlayer firstPlayer =new TicTacToePlayer(PlayerNameX,"X");
+    TicTacToePlayer secondPlayer =new TicTacToePlayer(PlayerNameO,"O");
 
     public TicTacToeGame(String PlayerNameX, String PlayerNameO) {
         this.PlayerNameX = PlayerNameX;
@@ -107,6 +107,10 @@ public class TicTacToeGame implements Serializable {
 
     public boolean finishCheck(){
         return (counter>8 || Winner() != null);
+    }
+
+    public void gameBoard(){
+
     }
 
     public void reloadGame(){
