@@ -58,7 +58,7 @@ public class TicTacToeCli {
         Scanner inp = new Scanner(System.in);
         String cmd;
         TicTacToeCli cli = new TicTacToeCli();
-        System.out.println("\n\t\t\t\t\t\t\t\t\t Welcome To XO ticTacToeGame \n");
+        System.out.println("\n\t\t\t\t\t\t\t\t\t\t\t Welcome To XO \n");
         System.out.println("Command </start player1 player2> start a new ticTacToeGame , example : /start Ali Reza ");
         System.out.println("Command </put n> selectItem a block ticTacToeGame per term, example : /put 1 ");
         System.out.println("Command </save> save the ticTacToeGame, example : /save ");
@@ -66,7 +66,10 @@ public class TicTacToeCli {
         while(true){
             System.out.print("command> ");
             cmd = inp.nextLine();
-            if(Objects.equals(cmd, "/save")) {
+            if(Objects.equals(cmd, "/exit")) {
+                break;
+            }
+            else if(Objects.equals(cmd, "/save")) {
                 System.out.println(cli.run("/save"));
                 break;
             }else {
