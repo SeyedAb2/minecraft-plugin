@@ -5,8 +5,8 @@ import java.io.Serializable;
 public class TicTacToePlayer implements Serializable {
 
     private String name ;
-    private String sign ;
-    private int[] selectItem = {0,0,0,0,0,0,0,0,0};
+    private final String sign ;
+    private String[] selectItem = {" "," "," "," "," "," "," "," "," "};
 
 
     public TicTacToePlayer(String name,String sign){
@@ -25,17 +25,17 @@ public class TicTacToePlayer implements Serializable {
         this.name = name;
     }
 
-    public int[] getSelectItem() {
+    public String[] getSelectItem() {
         return selectItem;
     }
 
-    public void setSelectItem(int[] selectItem) {
+    public void setSelectItem(String[] selectItem) {
         this.selectItem = selectItem;
     }
 
     public void selectItem(int item){
         if (item <= 8 && item >= 0) {
-            selectItem[item-1] = 1;
+            selectItem[item-1] = " ";
         }
     }
 }

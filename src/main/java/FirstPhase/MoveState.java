@@ -1,4 +1,10 @@
 package FirstPhase;
 
-public enum MovveState {
+public enum MoveState {
+    Empty(" "),
+    X("X"),
+    O("O");
+
+    MoveState(String state) {
+    }
 }
