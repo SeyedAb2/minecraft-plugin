@@ -1,13 +1,23 @@
-name: FinalProject
+name: XoPlugin
 version: '${project.version}'
-main: seyed.ab2.finalproject.FinalProject
+main: minecraft.xoplugin.XoPlugin
 api-version: 1.18
 commands:
-  mark-location:
-    description: will mark a point with a 50 block stone tower
+  challange:
+    description: challange player to gane
     usage: /<command>
-    aliases: [mark , tower]
-  unlimitted-wither-spawner:
-    description: will spawn a lot of wither
-    usage: /<command> <initdelay> <spawndelay>
-    aliases: [wither]
+  accept:
+    description: accepted challenge
+    usage: /<command>
+  deny:
+    description: deny the challenge
+    usage: /<command>
+  put:
+    description: put the place in to the table
+    usage: /<command>
+  save:
+    description: save the game
+    usage: /<command>
+  load:
+    description: load the game
+    usage: /<command>
