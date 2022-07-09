@@ -1,9 +1,9 @@
-name: XoPlugin
+name: minecraftPlugin
 version: '${project.version}'
-main: minecraft.xoplugin.XoPlugin
+main: minecraft.xoplugin.minecraftPlugin
 api-version: 1.18
 commands:
-  challange:
+  challenge:
     description: challange player to gane
     usage: /<command>
   accept:
@@ -21,3 +21,7 @@ commands:
   load:
     description: load the game
     usage: /<command>
+  destroy:
+    description: destroy game board
+    usage: /<command>
+
